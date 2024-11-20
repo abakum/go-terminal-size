@@ -1,3 +1,4 @@
+//go:build windows
 // +build windows
 
 package tsize
@@ -72,8 +73,8 @@ func getTerminalSize(fp *os.File) (s Size, err error) {
 
 	err = nil
 	s = Size{
-		Width:  int(csbi.size.x),
-		Height: int(csbi.size.y),
+		Width:  int(csbi.window.right - csbi.window.left + 1),
+		Height: int(csbi.window.bottom - csbi.window.top + 1),
 	}
 
 	return

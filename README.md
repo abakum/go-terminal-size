@@ -1,8 +1,8 @@
 # Go terminal size
 
-[![GoDoc](https://godoc.org/github.com/kopoli/go-terminal-size?status.svg)](https://godoc.org/github.com/kopoli/go-terminal-size)
-[![Build Status](https://travis-ci.org/kopoli/go-terminal-size.svg?branch=master)](https://travis-ci.org/kopoli/go-terminal-size)
-[![Go Report Card](https://goreportcard.com/badge/github.com/kopoli/go-terminal-size)](https://goreportcard.com/report/github.com/kopoli/go-terminal-size)
+[![GoDoc](https://godoc.org/github.com/abakum/go-terminal-size?status.svg)](https://godoc.org/github.com/abakum/go-terminal-size)
+[![Build Status](https://travis-ci.org/abakum/go-terminal-size.svg?branch=master)](https://travis-ci.org/abakum/go-terminal-size)
+[![Go Report Card](https://goreportcard.com/badge/github.com/abakum/go-terminal-size)](https://goreportcard.com/report/github.com/abakum/go-terminal-size)
 
 Features:
 - Get the size of the current terminal as rows and columns.
@@ -12,7 +12,7 @@ Features:
 ## Installation
 
 ```
-$ go get github.com/kopoli/go-terminal-size
+$ go get github.com/abakum/go-terminal-size
 ```
 
 ## Usage
@@ -26,7 +26,7 @@ package main
 import (
 	"fmt"
 
-	tsize "github.com/kopoli/go-terminal-size"
+	tsize "github.com/abakum/go-terminal-size"
 )
 
 func main() {

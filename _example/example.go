@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 
-	tsize "github.com/kopoli/go-terminal-size"
+	tsize "github.com/abakum/go-terminal-size"
 )
 
 func printSize(s tsize.Size) {
